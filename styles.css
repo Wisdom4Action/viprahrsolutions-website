@@ -151,3 +151,10 @@
  #employers .two{grid-template-columns:1fr}
  #careers>.wrap>.panel{padding:22px 18px}
 }
+
+/* Form submission feedback */
+.form-status{padding:12px 14px;border-radius:8px;margin:14px 0;font-weight:600;background:#f1f5f9;color:#243746}.form-status.success{background:#e8f6ee;color:#14532d}.form-status.error{background:#fff0f0;color:#9f1239}.live-form button[disabled]{opacity:.65;cursor:wait}
+
+
+/* Desktop-only logo size adjustment: mobile sizing remains unchanged */
+@media (min-width:1001px){.logo{width:270px}}
